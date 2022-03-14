@@ -1,0 +1,275 @@
+nav .container{
+    border-bottom: 2px solid black;
+}
+nav{
+    position: relative;
+    background-color: #CAE6FF;
+}
+nav .container a.navbar-brand, footer .container a.navbar-brand{
+    font-family: Montserrat;
+    font-size: 5vh;
+    font-weight: 700;
+    color: #007189;
+} 
+nav .container a span, footer .container a span{
+    color: transparent;
+    -webkit-text-stroke: 1px #007189;
+}
+nav .container nav.nav a{
+    position: relative;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding-left: 4.82vh;
+    font-size: 2.5vh;
+    color: black;
+    z-index: 1;
+} 
+nav .container nav.nav a:nth-child(1){
+    
+}
+nav .container nav.nav a:nth-child(2){
+    
+}
+nav .container nav.nav a:nth-child(3){
+    
+}
+nav .container nav.nav a:nth-child(4){
+    
+}
+nav .container nav.nav a:nth-child(5){
+    
+}
+nav .container nav.nav a:nth-child(6){
+    
+}
+nav .container nav.nav a:hover{
+    color: #007189;
+}
+nav .container nav.nav a:active{
+    color: red;
+}
+
+
+
+
+
+section.news-reviews .row1 h1{
+    font-family: Montserrat;
+    font-size: 3.5vh;
+    font-weight: bold;
+    color: #007189;
+    margin-top: 5vh;
+}
+section.news-reviews .row1 a{
+    font-family: Quicksand;
+}
+section.news-reviews .main-column{
+    background-color: white;
+    transition: transform 0.5s;
+    z-index: 2;
+}
+section.news-reviews .main-column:hover{
+    transform: scale(1.1);
+}
+section.news-reviews .article{
+    background-color: white;
+    transition: transform 0.5s;
+    z-index: 1;
+}
+section.news-reviews .article:hover{
+    transform: scale(1.1);
+}
+section.news-reviews .main-column .image{
+    background-color: aqua;
+    height: 66.5vh;
+}
+section.news-reviews .main-column h5{
+    font-size: 2.5vh;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+section.news-reviews .main-column p{
+    font-size: 75%;
+    font-family: Quicksand;
+}
+section.news-reviews .main-column .time-size p{
+    font-size: 55%;
+}
+section.news-reviews .article .image{
+    height: 25vh;
+    background-color: lightblue;
+}
+section.news-reviews .article h5{
+    font-size: 2.5vh;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+section.news-reviews .article p{
+    font-size: 75%;
+    font-family: Quicksand;
+}
+section.news-reviews a{
+    position: relative;
+    font-family: Quicksand; 
+    text-decoration: none; 
+    font-weight: 100;
+    color: black;
+    float: right; 
+    padding: 1.5vh;
+    transition: 1s;
+    transition: 0.4s all ease-in-out 0s;
+}
+section.news-reviews a:hover{
+    color: white;
+}
+section.news-reviews a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: unset;
+    right: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    background-color: #007189;
+    transition: 0.4s all ease-in-out 0s; 
+}
+section.news-reviews a:hover::before{
+    right: 0;
+    width: 100%;
+}
+section.news-reviews a:active{
+    color: red;
+}
+
+/**/
+section.videos .row1 h1{
+    font-family: Montserrat;
+    font-size: 3.5vh;
+    font-weight: bold;
+    color: #007189;
+    margin-top: 5vh;
+}
+section.videos .row1 a{
+    font-family: Quicksand;
+}
+section.videos .row3{
+    background-color: red;
+}
+section.videos .main-column .image{
+    background-color: aqua;
+    height: 66.5vh;
+}
+section.videos .main-column h5{
+    font-size: 2.5vh;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+section.videos .main-column p{
+    font-size: 75%;
+    font-family: Quicksand;
+}
+section.videos .article .image{
+    height: 25vh;
+    background-color: lightblue;
+}
+section.videos .article h5{
+    font-size: 2.5vh;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+section.videos .article p{
+    font-size: 75%;
+    font-family: Quicksand;
+}
+section.videos a:active{
+    color: red;
+}
+
+
+
+section.cat-bra h1{
+    font-family: Montserrat;
+    font-size: 3.5vh;
+    font-weight: bold;
+    color: #007189;
+    margin-top: 5vh;
+}
+section.cat-bra li{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 3vh;
+}
+section.cat-bra a{
+    color: black;
+    text-decoration: none;
+}
+section.cat-bra a:hover{
+    color:#007189;
+}
+section.cat-bra a:active{
+    color:red;
+}
+
+
+footer .container-full{
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    background-color: #CAE6FF;
+}
+footer .logo{
+    font-size: 75%;
+    font-family: Quicksand;
+}
+footer .logo p.justify{
+    text-align: justify;
+}
+footer .logo, .opt-lang{
+    border-right: 2px solid #aec4d6;
+}
+footer .opt-lang h1, .soc h1{
+    font-family: Montserrat;
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: #007189;
+    padding-bottom: 1.5vh;
+}
+footer .opt-lang li{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+footer .opt-lang a{
+    color: black;
+    text-decoration: none;
+}
+footer .opt-lang a:hover{
+    color:#007189;
+}
+footer .opt-lang a:active{
+    color:red;
+}
+footer .soc img{
+    transition: transform .1s;
+}
+footer .soc img:hover{
+    transform: scale(1.2);
+}
+footer .copyright{
+    background-color: #007189;
+}
+footer .copyright p{
+    font-family: Quicksand;
+    color: white;
+    font-size: 1.7vh;
+    font-weight:100;
+}
+footer .copyright a{
+    color: white;
+}
+footer .copyright a:hover{
+    color: black;
+}
+footer .copyright a:active{
+    color: red;
+}
