@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GadSpect</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/Gadspect/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/Gadspect/index.html" class="navbar-brand">Gad<span>Spect</span></a>
+            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="list-icon"><i class="bi bi-list" style="color: #007189; font-size: 4vh;"></i></span></button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="collapse pb-4" id="searchnav">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-8 p-0">
+                                    <input type="text" name="" id="">
+                                    
+                                </div>
+                                <div class="col-4 p-0">
+                                    <input type="button" value="Search"> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a href="/Gadspect/home/news.html">News</a></p>
+                    <p><a href="/Gadspect/home/videos.html">Videos</a></p>
+                    <p>
+                        <a href="#categories" data-bs-toggle="collapse" class="dropdown-toggle">Categories</a>
+                    </p>
+                    <div class="collapse" id="categories">
+                        <ul class="list-unstyled">
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/laptop.html">Laptop</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/pc.html">PC</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/camera.html">Camera</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/headphone.html">Headphone</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/headset.html">Headset</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/mobile.html">Mobile</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/television.html">Television</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/speaker.html">Speaker</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/console.html">Console</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/monitor.html">Monitor</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/mouse.html">Mouse</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/categories/smart-watch.html">Smart Watch</a></li>
+                        </ul>
+                    </div>
+                    <p>
+                        <a href="#brands" data-bs-toggle="collapse" class="dropdown-toggle">Brands</a>
+                    </p>
+                    <div class="collapse" id="brands">
+                        <ul class="list-unstyled">
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/sony.html">Sony</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/jbl.html">JBL</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/bose.html">Bose</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/acer.html">Acer</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/asus.html">Asus</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/lenovo.html">Lenovo</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/apple.html">Apple</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/samsung.html">Samsung</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/huawei.html">Huawei</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/xbox.html">XBOX</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/oppo.html">Oppo</a></li>
+                            <li class="pb-2 ps-4"><a href="/Gadspect/home/brands/vivo.html">Vivo</a></li>
+                        </ul>
+                    </div>
+                    <p><a href="/Gadspect/home/compare.html">Compare</a></p>
+                    <p><a href="/Gadspect/home/reviews.html">Reviews</a></p>
+                    <p>
+                        <a href="#searchnav" data-bs-toggle="collapse" class="dropdown-toggle">Search</a>
+                    </p>
+                    <p><a href="#account-nav" class="dropdown-toggle" data-bs-toggle="collapse">Account</a></p>
+                    <div class="collapse pb-4" id="account-nav">
+                        <div class="container-fluid p-0">
+                            <div class="row">
+                                <div class="col-12 p-0">
+                                    <form action="">
+                                        <legend>Log In</legend>
+                                        <input type="text" name="" id="">
+                                        <legend>Password</legend>
+                                        <input type="password" name="" id="">
+                                        <input type="button" name="" id="" value="Log In">
+                                        <input type="button" name="" id="" value="Sign Up">
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <button>
+                <input type="checkbox" name="" id="menu">
+                <label for="menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </button> -->
+            <nav class="nav">
+                <a href="/Gadspect/home/news.html" class="nav-link pe-0">News</a>
+                <a href="/Gadspect/home/videos.html" class="nav-link pe-0">Videos</a> 
+                <div class="dropdown">
+                    <a href="" class="nav-link pe-0 dropdown-toggle"data-hover="dropdown" data-bs-toggle="dropdown">Categories</a>
+                    <div class="dropdown-menu">
+                        <a href="/Gadspect/home/categories/laptop.html" class="dropdown-item">Laptop</a>
+                        <a href="/Gadspect/home/categories/pc.html" class="dropdown-item">PC</a>
+                        <a href="/Gadspect/home/categories/camera.html" class="dropdown-item">Camera</a>
+                        <a href="/Gadspect/home/categories/headphone.html" class="dropdown-item">Headphone</a>
+                        <a href="/Gadspect/home/categories/headset.html" class="dropdown-item">Headset</a>
+                        <a href="/Gadspect/home/categories/mobile.html" class="dropdown-item">Mobile</a>
+                        <a href="/Gadspect/home/categories/television.html" class="dropdown-item">Television</a>
+                        <a href="/Gadspect/home/categories/speaker.html" class="dropdown-item">Speaker</a>
+                        <a href="/Gadspect/home/categories/console.html" class="dropdown-item">Console</a>
+                        <a href="/Gadspect/home/categories/monitor.html" class="dropdown-item">Monitor</a>
+                        <a href="/Gadspect/home/categories/mouse.html" class="dropdown-item">Mouse</a>
+                        <a href="/Gadspect/home/categories/smart-watch.html" class="dropdown-item">Smart Watch</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="" class="nav-link pe-0 dropdown-toggle" data-bs-toggle="dropdown">Brands</a> 
+                    <div class="dropdown-menu">
+                        <a href="/Gadspect/home/brands/sony.html" class="dropdown-item">Sony</a>
+                        <a href="/Gadspect/home/brands/jbl.html" class="dropdown-item">JBL</a>
+                        <a href="/Gadspect/home/brands/bose.html" class="dropdown-item">Bose</a>
+                        <a href="/Gadspect/home/brands/acer.html" class="dropdown-item">Acer</a>
+                        <a href="/Gadspect/home/brands/asus.html" class="dropdown-item">Asus</a>
+                        <a href="/Gadspect/home/brands/lenovo.html" class="dropdown-item">Lenovo</a>
+                        <a href="/Gadspect/home/brands/apple.html" class="dropdown-item">Apple</a>
+                        <a href="/Gadspect/home/brands/samsung.html" class="dropdown-item">Samsung</a>
+                        <a href="/Gadspect/home/brands/huawei.html" class="dropdown-item">Huawei</a>
+                        <a href="/Gadspect/home/brands/xbox.html" class="dropdown-item">XBOX</a>
+                        <a href="/Gadspect/home/brands/oppo.html" class="dropdown-item">Oppo</a>
+                        <a href="/Gadspect/home/brands/vivo.html" class="dropdown-item">Vivo</a>
+                    </div>
+                    
+                </div>
+                <a href="/Gadspect/home/compare.html" class="nav-link pe-0">Compare</a> 
+                <a href="/Gadspect/home/reviews.html" class="nav-link pe-0">Reviews</a> 
+                <a href="#search" class="nav-link pe-0" data-bs-toggle="collapse">Search</a> 
+                <div class="dropdown">
+                    <a href="" class="nav-link pe-0 dropdown-toggle"data-hover="dropdown" data-bs-toggle="dropdown">Account</a>
+                    <div class="dropdown-menu account">
+                        <form action="">
+                            <legend>Log In</legend>
+                            <input type="text" name="" id="">
+                            <legend>Password</legend>
+                            <input type="password" name="" id="">
+                            <input type="button" name="" id="" value="Log In">
+                            <input type="button" name="" id="" value="Sign Up">
+                        </form>
+                    </div>
+                </div>
+                <div class="animation">
+                </div>
+        </div>
+    </nav>
+    <div class="collapse" id="search">
+        <div class="container">
+            <div class="row">
+                <div class="col-9">
+                </div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-9 pe-0">
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="col-3 ps-0">
+                            <input type="button" value="Search">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="directory mt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>
+                        <a href="/Gadspect/index.html"><span>HOME</span></a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                        <a href="/Gadspect/home/brands/jbl.html"><span>JBL</span></a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                        JBL's latest bluetooth speakers are waterproof.  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="article">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 image">
+                    <center><img src="/Gadspect/images/home/news/jbl-speakers.jpg" alt=""></center>
+                </div>
+                <div class="col-12 header pt-4">
+                    <h1>JBL's latest bluetooth speakers are waterproof.</h1>
+                </div>
+                <div class="col-12 author">
+                    <p>by Adriano Sabanal Jr&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;3 mins. ago</p>
+                </div>
+                <div class="col-12 col-lg-7 content">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe exercitationem velit asperiores quibusdam sunt adipisci repudiandae in itaque soluta possimus repellendus magni veniam sequi, ab expedita quaerat error pariatur ipsum quidem, delectus provident nihil cum tenetur? Id commodi suscipit est sequi corporis labore! Cumque, quod explicabo! A, obcaecati voluptatum nostrum distinctio facere reprehenderit officiis praesentium ratione. Eveniet porro esse error magni labore a consectetur dolore neque dolorum. Similique, tempore alias nemo earum ducimus dolorem. Harum corrupti illo qui! Expedita architecto earum sapiente est laborum, eum dolor maxime aliquid laboriosam autem error ipsum ullam praesentium cum dolores nesciunt quia nemo optio delectus eveniet consequuntur excepturi voluptatum? Nihil in minus ipsum ratione eveniet.
+                        <br> <br>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A consequuntur eum incidunt quas vel maxime repellendus explicabo ipsum odit nam et quidem animi, repellat, excepturi recusandae numquam alias. Vero ut rerum error ex commodi officiis itaque eius earum, sed repellendus veniam eum modi ad ab velit odit quia repudiandae quae laudantium iste asperiores? Earum temporibus porro illo corporis inventore voluptatibus ullam, ipsa nemo ea assumenda totam! Iusto numquam quis unde sint inventore excepturi aperiam itaque ea quaerat molestias, sed ipsam minus! Voluptatum pariatur nihil, sint impedit consequatur repellat placeat ea dignissimos modi quis repellendus molestiae reprehenderit perferendis id, adipisci aperiam. 
+                        <br> <br>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A consequuntur eum incidunt quas vel maxime repellendus explicabo ipsum odit nam et quidem animi, repellat, excepturi recusandae numquam alias. Vero ut rerum error ex commodi officiis itaque eius earum, sed repellendus veniam eum modi ad ab velit odit quia repudiandae quae laudantium iste asperiores? Earum temporibus porro illo corporis inventore voluptatibus ullam, ipsa nemo ea assumenda totam! Iusto numquam quis unde sint inventore excepturi aperiam itaque ea quaerat molestias, sed ipsam minus! Voluptatum pariatur nihil, sint impedit consequatur repellat placeat ea dignissimos modi quis repellendus molestiae reprehenderit perferendis id, adipisci aperiam. 
+                    </p>
+                </div>
+                <div class="col-12 col-lg-5 share">
+                    <div class="row">
+                        <div class="col-12 col-lg-12">
+                            <p>SHARE ON</p>
+                        </div>
+                        <div class="col-12 col-lg-12 sm">
+                            <div class="row">
+                                <div class="col-2 col-lg-6">
+                                    <a href="https://www.facebook.com/" target="_blank"><img src="/Gadspect/images/icon-facebook.png" alt=""></a>
+                                </div>
+                                <div class="col-10 col-lg-6">
+                                    <a href="https://twitter.com/" target="_blank"><img src="/Gadspect/images/icon-twitter.png" alt=""></a>  
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="comment">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>COMMENTS (5)</h1>
+                </div>
+                <div class="col-12 col-lg-7 pt-3">
+                    <textarea name="" id=""></textarea>
+                </div>
+                <div class="col-12">
+                    <input type="button" value="Send">
+                </div>
+                <div class="col-12 profile">
+                    <div class="row">
+                        <div class="col-12 col-lg-7 pt-4">
+                            <div class="row">
+                                <div class="col-2 col-sm-1 col-md-2 col-lg-2 col-xl-1">
+                                    <img src="/Gadspect/images/profile.png" alt="">
+                                </div>
+                                <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-11">
+                                    <p class="profile-name mb-1">Adriano Sabanal Jr.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>1 min. ago</span></p>
+                                    <p class="comments">Wow. Lahat ng information about sa bibilhin kong headphone ay nandito na. Gusto ko na bilhin agad yan kahit mahal.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7 pt-4">
+                            <div class="row">
+                                <div class="col-2 col-sm-1 col-md-2 col-lg-2 col-xl-1">
+                                    <img src="/Gadspect/images/profile.png" alt="">
+                                </div>
+                                <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-11">
+                                    <p class="profile-name mb-1">Adriano Sabanal Jr.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>3 mins. ago</span></p>
+                                    <p class="comments">Well, I already bought that headphone and I'm impressed. I already aware of the specs because of this article.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7 pt-4">
+                            <div class="row">
+                                <div class="col-2 col-sm-1 col-md-2 col-lg-2 col-xl-1">
+                                    <img src="/Gadspect/images/profile.png" alt="">
+                                </div>
+                                <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-11">
+                                    <p class="profile-name mb-1">Adriano Sabanal Jr.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>1 mo. ago</span></p>
+                                    <p class="comments">Bakit ang mahal? Hindi na kasya sa budget ko. Tsaka na yan kapag may naipon na ako.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7 pt-4">
+                            <div class="row">
+                                <div class="col-2 col-sm-1 col-md-2 col-lg-2 col-xl-1">
+                                    <img src="/Gadspect/images/profile.png" alt="">
+                                </div>
+                                <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-11">
+                                    <p class="profile-name mb-1">Adriano Sabanal Jr.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>2 mos. ago</span></p>
+                                    <p class="comments">Mag iisang taon ko na ginagamit itong headphone ko. Matibay pa, maaasahan pa.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7 pt-4">
+                            <div class="row">
+                                <div class="col-2 col-sm-1 col-md-2 col-lg-2 col-xl-1">
+                                    <img src="/Gadspect/images/profile.png" alt="">
+                                </div>
+                                <div class="col-10 col-sm-11 col-md-10 col-lg-10 col-xl-11">
+                                    <p class="profile-name mb-1">Adriano Sabanal Jr.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>1 yr. ago</span></p>
+                                    <p class="comments">Hi everyone. For those who want to experience high quality audio performance headphone, then this is for you.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-5">
+        <div class="container-fluid container-full">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-3 logo">
+                        <a href="" class="navbar-brand">Gad<span>Spect</span></a>
+                        <br> <br>
+                        <p class="pe-2 justify">GadSpect is created by Adriano Sabanal Jr  on March 21, 2022. 
+                            This website is served  as a mini-project handled by KodeGO. 
+                        </p>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-6 col-lg-3 opt-lang">
+                        <br>
+                        <div class="row">
+                            <div class="col-12">
+                                <h1>Languages</h1>
+                            </div>
+                            <div class="col-12">
+                                <ul class="list-unstyled opacity-50">
+                                    <li class="mb-1"><a href="">English</a></li>
+                                    <li class="mb-1"><a href="">Tagalog</a> </li>
+                                    <li class="mb-1"><a href="">Spanish</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-6 col-lg-3 soc">
+                        <br>
+                        <h1>Follow Us</h1>
+                        <div class="row">
+                            <div class="col-4 col-sm-6 col-md-4">
+                                <ul class="list-unstyled opacity-50">
+                                    <li class="mb-4"><a href=""><img src="/Gadspect/images/icon-facebook.png" alt="" width="30" height="30"></a> </li>
+                                    <li class="mb-4"><a href=""><img src="/Gadspect/images/icon-twitter.png" alt="" width="30" height="30"></a> </li>
+                                </ul>
+                            </div>
+                            <div class="col-8 col-sm-6 col-md-8">
+                                <ul class="list-unstyled opacity-50">
+                                    <li class="mb-4"><a href=""><img src="/Gadspect/images/icon-instagram.png" alt="" width="30" height="30"></a> </li>
+                                    <li class="mb-4"><a href=""><img src="/Gadspect/images/icon-discord.png" alt="" width="30" height="30"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-12 col-lg-3 newsletter">
+                        <br>
+                        <div class="row">
+                            <div class="col-12">
+                                <h1>Subscribe to the newsletter and be the one to receive latest news and website updates. </h1>
+                            </div>
+                            <div class="col-12">
+                                <form action="">
+                                    <input type="text" name="" id="">
+                                    <input type="button" value="Subscribe">
+                                    <div class="row">
+                                        <div class="col-8 pe-0">
+                                            
+                                        </div>
+                                        <div class="col-4">
+                                            
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-6 col-lg-6">
+                        <p class="m-0">&copy; 2022 GadSpect. All rights reserved</p>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-6">
+                        <p class="m-0 legal">
+                            <a href="" class="text-decoration-none">Privacy</a>
+                            <a href="" class="text-decoration-none ps-4">Legal</a>
+                            <a href="" class="text-decoration-none ps-4" data-bs-toggle="modal" data-bs-target="#aboutmodal">About</a>
+                            <div class="modal fade" id="aboutmodal" tabindex="-1" aria-labelledby="aboutmodal" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1>Gad<span>Spect</span></h1>
+                                        </div>
+                                        <div class="modal-body">
+                                            GadSpect is created by Adriano Sabanal Jr  on March 21, 2022. 
+                                This website is served  as a mini-project handled by KodeGO. <br> <br> &copy; 2022 GadSpect. All rights reserved
+                                        </div>
+                                        <div class="modal-footer">
+                                            <input type="button" value="Close" data-bs-dismiss="modal">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+</html>
